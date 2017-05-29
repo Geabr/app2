@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <title>Borodinski Barbershop</title>
+
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/stylePrefix.css">
+    <link rel="stylesheet" href="css/media.css">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body class="mainBody">
+    <header class="mainHeader">
+    	<nav class="topLine">
+    		<input type="checkbox" class="menuToggle" id="menuToggle"><label for="menuToggle" class="label-menuToggle"><span></span></label>
+    		<ul class="topLine__ul">
+    			<li class="topLine__li"><a class="topLine__a" href="#">Информация</a></li>
+    			<li class="topLine__li"><a class="topLine__a" href="#">Новости</a></li>
+    			<li class="topLine__li"><a class="topLine__a" href="#">Прайс-лист</a></li>
+    			<li class="topLine__li"><a class="topLine__a" href="#">Магазин</a></li>
+    			<li class="topLine__li"><a class="topLine__a" href="#">Контакты</a></li>
+    			<li class="topLine__li topLine__li-last"><a class="topLine__a topLine__a-last" href="#">Вход</a></li>
+    		</ul>
+    	</nav>
+    	<h1 class="logo mainHeader__logo">
+    		<a href="#" class="logo__a">
+    			<img src="img/logo.png" alt="Borodinski Barbershop">
+    		</a>
+    	</h1>
+    </header>
+
+    <section class="advantages mainBody__advantages">
+    	<div class="advantage">
+    		<h2 class="advantage__h2">Быстро</h2>
+    		<p class="advantage__p">МЫ ДЕЛАЕМ СВОЮ РАБОТУ БЫСТРО! ДВА ЧАСА ПРОЛЕТЯТ НЕЗАМЕТНО И ВЫ — СЧАСТЛИВЫЙ ОБЛАДЕТЕЛЬ СТИЛЬНОЙ СТРИЖКИ-МИНУТКИ!</p>
+    	</div>
+    	<div class="advantage">
+    		<h2 class="advantage__h2">Круто</h2>
+    		<p class="advantage__p">ЗАБУДЬТЕ, КАК ВЫ СТРИГЛИСЬ РАНЬШЕ.<br>МЫ СДЕЛАЕМ ИЗ ВАС ЗВЕЗДУ ФУТБОЛА ИЛИ КИНО!<br>ВО ВСЯКОМ СЛУЧАЕ ВНЕШНЕ.</p>
+    	</div>
+    	<div class="advantage">
+    		<h2 class="advantage__h2">Дорого</h2>
+    		<p class="advantage__p">НАШИ МАСТЕРА — ПРОФЕССИОНАЛЫ СВОЕГО ДЕЛА И НЕ МОГУТ СТОИТЬ ДЕШЕВО. К ТОМУ ЖЕ, РАЗВЕ ЦЕНА НЕ ДАЕТ ОПРЕДЕЛЕНЫЙ СТАТУС?</p>
+    	</div>
+    </section>
+
+    <article class="sheets">
+    	<section class="sheet sheet-firstPart">
+    		<h3 class="sheet__h3">Новости</h3>
+    		<p class="sheet__p">НАМ НАКОНЕЦ ЗАВЕЗЛИ ЯГЕРМАЙСТЕР! ТЕПЕРЬ ВЫ МОЖЕТЕ ПРОПУСТИТЬ СТАКАНЧИК ВО ВРЕМЯ СТРИЖКИ</p>
+    		<time datetime="2017-01-11" class="sheet__time">11 Января</time>
+    		<p class="sheet__p">В НАШЕЙ КОМАНДЕ ПОПОЛНЕНИЕ, БОРИС «БРИТВА» СТРИГУНЕЦ, ОБЛАДЕТЕЛЬ МНОЖЕСТВА ТИТУЛОВ И НАГРАД ПОПОЛНИЛ НАШИ СТРОЙНЫЕ РЯДЫ</p>
+    		<time datetime="2017-01-18" class="sheet__time">18 Января</time>
+    	
+    		<a href="#" class="btn sheet__btn">Все новости</a>
+    		
+    	</section>
+    	<section class="sheet sheet-secondPart">
+    			<h3 class="sheet__h3">Фотогалерея</h3>
+    		<div class="galleryCarousel">
+    			<div class="galleryCarousel__item">
+    				<img src="img/gallery-photo1.jpg" alt="Место где вас стригут">
+    			</div>
+    		</div>
+    		<button class="btn galleryCarousel__btn galleryCarousel__btn-prev">Назад</button>
+    		<button class="btn galleryCarousel__btn galleryCarousel__btn-next">Вперед</button>
+    	</section>
+    </article>
+
+    <article class="sheets mainBody__sheets">
+    	<section class="sheet sheet-firstPart ">
+    		<h3 class="sheet__h3">Контактная информация</h3>
+    		<p class="sheet__p">БАРБЕРШОП «БОРОДИНСКИЙ»</p>
+    		<p class="sheet__p">АДРЕС: Г. САНКТ-ПЕТЕРБУРГ, Б. КОНЮШЕННАЯ, Д. 19/8</p>
+    		<p class="sheet__p sheet__p-last">ТЕЛЕФОН: +7 (495) 666-02-66</p>
+    		<p class="sheet__p">ВРЕМЯ РАБОТЫ:</p>
+    		<p class="sheet__p">ПН — ПТ: С 10:00 ДО 22:00</p>
+    		<p class="sheet__p">СБ — ВС: С 10:00 ДО 19:00</p>
+    		<a href="#" class="btn contactInform__btn contactInform__btn-first">Как проехать</a>
+    		<a href="#" class="btn contactInform__btn">Обратная связь</a>
+    	</section>
+    	<section class="sheet sheet-secondPart">
+    		<h3 class="sheet__h3">Записаться</h3>
+    		<p class="sheet__p">УКАЖИТЕ ЖЕЛАЕМУЮ ДАТУ И ВРЕМЯ И МЫ СВЯЖЕМСЯ С ВАМИ ДЛЯ ПОДТВЕРЖДЕНИЯ БРОНИ</p>
+    		<form class="mainBody__form form">
+    			<input type="text" class="form__input form__input-first" placeholder="Дата">
+    			<input type="text" class="form__input" placeholder="Время">
+    			<input type="text" class="form__input form__input-first" placeholder="Ваше имя" required>
+    			<input type="text" class="form__input" placeholder="Телефон" required>
+    			<input type="submit" class="btn btn-submit" value="Отправить">
+    		</form>
+    	</section>
+    </article>
+
+    <footer class="mainFooter">
+    	<div class="wrap mainFooter__wrap">
+    		<div class="mainFooter__block mainFooter__block-contacts">
+    			<p class="mainFooter__p">БАРБЕРШОП «БОРОДИНСКИЙ»</p>
+    			<p class="mainFooter__p">АДРЕС: Г. САНКТ-ПЕТЕРБУРГ, УЛ. Б. КОНЮШЕННАЯ, Д. 19/8</p>
+    			<a href="#" class="mainFooter__a">КАК НАС НАЙТИ?</a>
+    			<p class="mainFooter__p">ТЕЛЕФОН: +7 (495) 666-02-66</p>
+    		</div>
+    		<div class="mainFooter__block mainFooter__block-followUs">
+    			<p>Давайте дружить!</p>
+    			<a href="#" class="btn followUs__btn followUs__btn-vk "></a>
+    			<a href="#" class="btn followUs__btn followUs__btn-facebook"></a>
+    			<a href="#" class="btn followUs__btn followUs__btn-insta"></a>
+    		</div>
+    		<div class="mainFooter__block mainFooter__block-doneBy">
+    			<p class="doneBy__p">Разработано:</p>
+    			<a href="#" class="btn doneBy__btn"><!-- htmlacademy.ru -->© GEABR, 2017</a>
+    		</div>
+    	</div>
+    </footer>
+  </body>
+</html>
